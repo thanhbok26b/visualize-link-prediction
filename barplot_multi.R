@@ -26,7 +26,7 @@ for (i in 1:5){
 }
 
 # Plot data
-png(file='figure/plot.png')
+png(file='figure/multi.png')
 
 # plot mean
 ylim = c(floor((min(mean) - 5) / 10) * 10, ceiling((max(mean) + 5) / 10) * 10)
